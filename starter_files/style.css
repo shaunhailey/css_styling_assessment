@@ -1,0 +1,36 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+/* ID Selector */
+#site_header {
+  background-color: #ff8523;
+}
+/* Class Selector */
+.main_navigation {
+  display: inline-block;
+  width: 30%;
+  height: 75px;
+  border: 1px;
+}
+/* Traversal Selector */
+.main_navigation > a {
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  border: 1px solid white;
+  color: white;
+  align-items: baseline;
+  font-size: 18px;
+
+}
