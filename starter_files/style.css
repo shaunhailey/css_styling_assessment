@@ -20,17 +20,83 @@ colors:
 .main_navigation {
   display: inline-block;
   width: 30%;
-  height: 75px;
+  height: 4em;
   border: 1px;
+  display:flex;
+  align-content: stretch;
 }
 /* Traversal Selector */
 .main_navigation > a {
   display: inline-block;
   width: 30%;
-  height: 50px;
+  height: 2em;
   border: 1px solid white;
   color: white;
-  align-items: baseline;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: helvetica;
+  text-decoration: none;
+  display: flex;
+  align-content: center;
+  margin: 0.05em;
+}
 
+h2, h3 {
+  color: #1fabe5;
+  font-family: arial;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ text-decoration: none;
+ }
+
+#page_content {
+  margin-left: 1em;
+}
+
+ul {
+  font-weight: bold;
+  font-family: arial;
+}
+
+thead {
+  background-color: #1fabe5;
+  color: white;
+}
+
+
+table, tbody {
+  font-family: 'Arial';
+  border-color: #1fabe5;
+  margin: 25px auto;
+  border: 1px solid #1fabe5;
+  border-bottom: 2px solid #1fabe5;
+
+
+  th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    &.last
+      border-right: none;
+    }
+
+
+
+tbody {
+  color: #999;
+  border: 1px solid #1fabe5;
+  padding: 12px 35px;
+  border-collapse: separate;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
