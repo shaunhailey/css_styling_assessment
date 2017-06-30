@@ -66,40 +66,40 @@ ul {
   font-family: arial;
 }
 
+table {
+  font-family: 'Arial';
+  margin: 25px auto;
+  border: 1px solid #1fabe5;
+  border-bottom: 2px solid #1fabe5;
+  border-collapse: collapse;
+}
+
 thead {
   background-color: #1fabe5;
   color: white;
 }
 
-
-table, tbody {
-  font-family: 'Arial';
-  margin: 25px auto;
-  border: 1px solid #1fabe5;
-  border-bottom: 2px solid #1fabe5;
-
-
-  th {
-    background: #00cccc;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    &.last
-      border-right: none;
-    }
-
-
-
 tbody {
   color: #999;
-  /*border: 1px solid #1fabe5;*/
-  padding: 12px 35px;
-  border-collapse: separate;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
 }
 
 td {
-  border: 5px solid #1fabe5;
+  border: 1px solid #1fabe5;
+  vertical-align: top;
+}
+
+.name {
+  background-color: #ff8523;
+  margin: 3em;
+  padding: 2em;
+  color: white;
+  font-family: arial;
+}
+
+form {
+  background-color: #dddddd;
+}
+
+#submit_button {
+  width: 6em;
 }
